@@ -2,8 +2,26 @@
 	<header class="mizu-header">The header</header>
 	<div class="mizu-body">
 		<main class="mizu-content">
+			<!-- Express Handle Bars -->
 			<h1>{{title}}</h1>
 			<p>Welcome to {{title}}</p>
+			<!-- Escaped Handle Bars for Vue -->
+			<div>
+				<div class="input-group">
+					<span class="input-group-addon">
+						<span class="fa fa-comment"></span>
+					</span>
+					<input type="text" 
+				  		   class="form-control" 
+				  		   placeholder="Write a message"
+				  		   v-model="msg" />
+				</div>
+				<p>\{{msg}}</p>
+			</div>
+
+			<section>
+				<example msg="\{{msg}}" list="\{{girls}}" />
+			</section>
 		</main>
 		<nav class="mizu-nav">
 			Navigation
