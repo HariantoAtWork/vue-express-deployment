@@ -31,3 +31,10 @@ npm-debug.log
 
 ####
 resources/bower_components
+public/stylesheets/style.css
+public/stylesheets/app.bootstrap.css
+public/stylesheets/app.bootstrap.min.css
+public/javascripts/bower_components.min.js
+public/javascripts/bower_components.min.js.map
+public/javascripts/app.browserify.js
+public/javascripts/app.browserify.js.map
