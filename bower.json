@@ -1,0 +1,28 @@
+{
+  "name": "vue-express-deployment",
+  "version": "0.0.0",
+  "homepage": "https://github.com/HariantoAtWork/vue-express-deployment",
+  "authors": [
+    "Harianto van Insulinde <hariantoatwork@gmail.com>"
+  ],
+  "description": "Deployment workflow for Vue Express Browserify Bootstrap LESS Gulp CDN",
+  "main": "gulpfile.js",
+  "keywords": [
+    "VueJS",
+    "Bootstrap",
+    "LESS",
+    "Gulp",
+    "Browserify",
+    "mdstn.com",
+    "mizu.work"
+  ],
+  "license": "CC-BY-4.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/bower_components",
+    "test",
+    "tests"
+  ]
+}
